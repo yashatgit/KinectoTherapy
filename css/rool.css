@@ -1,0 +1,111 @@
+#navigation {
+	padding:0px 0px;
+	width:75px;
+	float:left;
+	z-index:100;
+}
+
+#navigation a,#navigation a:visited   {
+	background:url(../img/toolbar.jpg);
+	display:block;
+	height:50px;
+	text-indent:-9000px;
+}
+
+#navigation li {
+	width:75px;
+	position:relative;
+}
+
+/* style the second level background */
+#navigation ul ul a.drop,
+#navigation ul ul a.drop:visited {
+	background: #063}
+/* style the second level hover */
+#navigation ul ul a.drop:hover{background:#fff; color:#202c32;}
+#navigation ul ul :hover &gt; a.drop {background:#fff; color:#202c32;}
+
+#navigation ul ul a:hover {background:#fff; color:#202c32;}
+/* make the second level visible when hover on first level list OR link */
+#navigation ul li:hover ul,
+#navigation ul a:hover ul{visibility:visible; }
+
+
+
+/* hide the sub levels and give them a positon absolute so that they take up no room */
+#navigation ul ul {
+	visibility:hidden;
+	position:absolute;
+	top:0px; left:50px;
+	padding:4px;
+	background:#bcbcbc;
+	height:auto; 
+	width:auto;
+	border-right:1px solid #eee;
+	-webkit-border-radius: 0px 4px 4px 0px;
+    -moz-border-radius: 0px 4px 4px 0px;
+    border-radius: 0px 4px 4px 0px;
+	}
+
+/* style the second level links */
+#navigation ul ul a, 
+#navigation ul ul a:visited {
+	background:none;
+	color: #000;
+	height:auto;
+	line-height:14px;
+	text-indent:0px;
+	display:block;
+	padding:5px;
+	text-decoration:none;
+	font-size:11px;
+	}
+
+
+#navigation a.link6,
+#navigation a.link7,
+#navigation a.link8,
+#navigation a.link9 {
+	background:url(../img/toolbar.jpg);
+	display:block;
+	height:25px;
+	text-indent:-9000px;
+}
+
+#navigation a.link11,
+#navigation a.link12 {
+	background:url(../img/toolbar.jpg);
+	display:block;
+	height:50px;
+	text-indent:-9000px;
+}
+
+#navigation a.link1:hover {background-position:-75px 0px;}
+#navigation a.link2 {background-position:0px -50px;}
+#navigation a.link2:hover {background-position:-75px -50px;}
+#navigation a.link3 {background-position:0px -100px;}
+#navigation a.link3:hover{background-position:-75px -100px;}
+#navigation a.link4 {background-position:0px -150px;}
+#navigation a.link4:hover {background-position:-75px -150px;}
+#navigation a.link5 {background-position:0px -200px;}
+#navigation a.link5:hover {background-position:-75px -200px;}
+#navigation a.link6 {background-position:0px -250px;}
+#navigation a.link6:hover{background-position:-75px -250px;}
+#navigation a.link7 {background-position:0px -275px;}
+#navigation a.link7:hover {background-position:-75px -275px;}
+#navigation a.link8 {background-position:0px -300px;}
+#navigation a.link8:hover {background-position:-75px -300px;}
+#navigation a.link9 {background-position:0px -325px;}
+#navigation a.link9:hover{background-position:-75px -325px;}
+
+
+#navigation a.link11 {background-position:0px -350px;}
+#navigation a.link11:hover{background-position:-75px -350px;}
+
+#navigation a.link12 {background-position:0px -400px;}
+#navigation a.link12:hover{background-position:-75px -400px;}
+#navigation :hover > a.link12, #navigation ul ul :hover > a.link12  {background-position:-75px -400px;}
+
+.toolbar{
+	left:100px;
+}

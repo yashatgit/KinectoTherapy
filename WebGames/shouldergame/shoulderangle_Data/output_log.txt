@@ -1,0 +1,9 @@
+Direct3D:
+    Version:  Direct3D 9.0c [igdumdx32.dll 8.15.10.1986]
+    Renderer: Intel(R) Graphics Media Accelerator HD
+    Vendor:   Intel
+    VRAM:     64 MB (via DXGI)
+    Caps:     Shader=30 DepthRT=1 NativeDepth=0 NativeShadow=1 DF16=0 DF24=0 INTZ=0 RAWZ=0 NULL=0 RESZ=0 SlowINTZ=0
+desktop: 1280x800 60Hz; virtual: 1280x800 at 0,0
+<I> Initializing (RawInput).
+<RI> Input initialized.

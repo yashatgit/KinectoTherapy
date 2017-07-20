@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>KinectoTherapy</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=8" />
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">   
+        <meta charset="utf-8">
+        <!-- Bootstrap, from Twitter -->
+    
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>    
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.css" />
+    <link rel="stylesheet" type="text/css" href="css/global.css">
+
+	<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');	
+	  ga('create', 'UA-39425421-2', 'kinectotherapy.in');
+	  ga('send', 'pageview');
+	</script>
+
+	<script type="text/javascript">
+	    $(document).ready(function () {
+	        $('#kinectoTherapyCarousel').carousel({interval: 93000,pause:"hover"});
+	    });
+    </script>
+</head>
+
+    <body>
+
+    <div class="navbar navbar-fixed-top">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+              	</a>
+                <a class="brand" href="home.html">KinectoTherapy</a>
+                <div class="nav-collapse" style="height:0px;">
+    	            <ul class="nav">
+                          <li><a href="home.html">Home</a></li>
+                          <li><a href="games.html">Games</a></li>
+                          <li class="active"><a href="about.html">About</a></li>
+                          <li><a href="contactus.html">Contact Us</a></li>
+                    </ul>
+                    
+                    <p class="navbar-text pull-right"><a href="signIn.html">Sign-In</a></p>
+                </div><!--/.nav-collapse -->
+                    
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">       
+        <div class="container-fluid">
+            <div class="hero-unit" style="height:auto; background-color:#FFF;"> 
+            	<div class="row-fluid">
+                	<div class="span12" style="font-size:14px;">
+                    	
+                        	
+                                            
+ 		<ul id="tab" class="nav nav-tabs">
+            <li class="active"><a href="#idea" data-toggle="tab">Idea behind KT</a></li>
+            <li class=""><a href="#software" data-toggle="tab">The software</a></li>
+            <li class=""><a href="#technologies" data-toggle="tab">Technologies Used</a></li>
+            <li class=""><a href="#install" data-toggle="tab">Installation</a></li>            
+            <li class=""><a href="#team" data-toggle="tab" style="color:#093"><strong>Team behind KinectoTherapy</a></strong></li>
+            <li class=""><a href="#media" data-toggle="tab" style="color:#F00"><strong>KT in Media!!</a></strong></li>
+        </ul>
+          <div id="myTabContent" class="tab-content">
+            <div class="tab-pane fade active in" id="idea">
+<br>            <blockquote>We wish to complement the existing physical rehabilitation process by developing interactive serious games. For this we use<a href="http://www.microsoft.com/en-us/kinectforwindows/"> Microsoft Kinect</a>, the motion sensing input device through which we gamify motor rehabilitation exercise routines.  The cognitive and motor activity required in these 3D-full body motion sensing games will make the entire process engaging. Combining this with performance and result based feedback will eliminate the need of routine monitoring or training. This brings the rehabilitation process out of the confines of hospitals and a patient may use it in 'whenever-wherever' way. The exercises implemented in the application have been recommended by specialists.</blockquote><br>
+               Motion-based and virtual reality game systems have been used for rehabilitation earlier and are still in use. However they require lot of training on the patient's part. Such devices can be used only under the supervision of a specialist and have to be handled with care. Most devices, when being used, require sensors to be attached to the patient and this hinders movement. This is a huge drawback in cases where the patient has limited limb movement and as a result of the wires and sensors attached to his body, feels bound. All this rules out the possibility of the patient doing the exercises at home with his/her family and thus the patient has to half-heartedly go to the hospital on a routine basis.<br>
+This calls for a system which tracks impaired limb movement without attaching any sensors which would inhibit movement or require setup by the patient. In addition to this, the system should be easy to use and engage its user so that he can monitor his progress and thus be motivated towards recovery.<br>
+Motion sensing games built with using Microsoft Kinect offer this very possibility where the <strong>'user is the controller'</strong>. With the advent of Microsoft Kinect, the concept of motion sensing spurred the development of various applications including those with NUIs. This opened a plethora of opportunities to create full body tracking games without the use of any external device attached to the player. Games are being created that any not only for the sole purpose of entertainment but also have a humanitarian approach.
+Kinect motion controlled games are being used for medical rehabilitation at some places but they lack essential components of conventional therapy.<br> 
+This idea inspired us to create serious games which are engaging and motivating with added therapeutic value. <br>
+ <br><br><br><br>
+ 
+ 				<div class="row-fluid">
+                 	<div class="span6" style="text-align:center">
+                    	<img  src="img/1.jpg" style="margin:0 auto;" class="img-polaroid"><br>Depiction of a physically challenged person performing the exercise routine
+                    </div>
+                    <div class="span6" style="text-align:center">
+                    	<img  src="img/2.jpg" style="margin:0 auto;" class="img-polaroid"><br>Depiction of a Paraplegic patient playing the games
+                    </div>
+                </div>
+
+            </div><!-- about div ends --> 
+            
+            <div class="tab-pane fade" id="software">
+            The software has a series of mini-games and each falls in the genre of Serious Games. <em><strong>Current rehabilitation games lack entertainment and engaging qualities whereas popular games lack essential components of rehabilitation.</em></strong> Mixing useful elements of both, serious games can be made, which create meaningful play. Similarly, our mini-games are gamified versions of conventional rehabilitation exercises that physiotherapists and occupational therapist make their patients do. The mini-games target specific limb movement problems that are common to a large group of people. Our software animates the in-game avatar of a person using real time motion capture data. Full skeleton of the user is tracked and the functions he performs are simulated in the virtual environment. Such an interactive environment encourages the person to become more involved, motivated and immersed in rehabilitation. These types of virtual environments not only have the components which are not found in conventional therapy but also provide easy, less dangerous, more fun and customizable therapy routines which can be tailored to the patients' interests and physical abilities.
+<br>
+Another important aspect of our software is that it <em><strong>provides feedback</strong></em> to the patient on his performance on the run as well as at the successful completion of the exercise routine. As already mentioned above, feedback enables a player to measure his progress in achieving goals, or progression of his skills over a period of time and this gives him a sense of accomplishment.<br>
+As the patient performs an exercise routine, <em><strong>various aspects about his performance are logged</strong></em>. This data helps in comparing his current performance against earlier attempts and in turn motivates him to perform better in the subsequent sessions. This data gets periodically updated on a website and the supervising doctor can view any particular patient's statistics remotely. This allows for efficient progress tracking of the patient over time which in turn helps to take informed clinical decision.
+	<br><br><br><hr>
+    	
+    	<div style="text-align:center">
+    	<h3 style="text-align:center, max-width: 100%;">A schematic of the architecture of KinectoTherapy</h3><br>
+	    	<img src="img/SoftArchitecture_KT.png"  class="img-polaroid">
+    	</div>
+    
+            </div>
+            
+            <div class="tab-pane fade" id="technologies">
+            
+            The software has been created using <a href="http://unity3d.com/">Unity3d</a> Game Engine.<br>
+            The 3d animation and models are created using <a href="http://usa.autodesk.com/3ds-max/">3ds Max.</a><br>
+            We are using the Microsoft's Kinect SDK to interact with the Kinect Sensor.
+            <br><br>
+              The software makes extensive uses of following NUI features:
+              <ul>
+<li><strong>Full body skeleton tracking:</strong> Movement of the entire body is detected and used in animating the avatar in gameplay.</li>
+<li><strong>Top down user map:</strong> Location of the user in the X-Y plane is tracked.</li>
+<li><strong>Hand Tracking:</strong> Movement of the wrist alone is tracked so that patients who are unable to stand or are paraplegic can also be benefited.</li>
+<li><strong>Gesture recognition:</strong> The user can perform simple gestures like 'push-in/push-out' to make selections.</li></ul>
+We intend to create a simple and easy mechanism through which the doctor can supervise his patient's performance remotely. 
+
+            </div>
+            
+            <div class="tab-pane fade" id="install">
+            	Just follow these simple steps to configure KinectoTherapy:<br><br>
+                <ol>
+                	<li>Install the <a href="http://www.microsoft.com/en-us/kinectforwindows/develop/overview.aspx">Official Kinect Drivers</a>.</li>
+                    <li>Plugin your Kinect Sensor, go to the <a href="games.html">games</a> page and <strong>start playing!</strong></li>                
+                </ol>
+            </div>
+            
+            <div class="tab-pane fade" id="team">
+            	<div class="row-fluid well" style="width:auto;">
+                	<div class="span3" align="center">
+                    	<img src="img/yash.jpg" class="img-polaroid">
+                        <br><h3><a href="http://www.yashsoni.com" target="_new">Yash Soni</a></h3>
+                    </div>
+                    <div class="span9">
+                    	Yash is alumni of <a href="http://www.daiict.ac.in" target="_new">DAIICT</a> who completed his B-tech in Information and Communication Technology.<br>
+                        His contribution to this project is in:
+                        	<ul>
+                            	<li>Setting up the Kinect-Unity framework</li>
+                                <li>Development in C# and Javascript</li>
+                                <li>2D and 3D graphics modelling and animation</li>
+                                <li>Usability testing</li>
+                                <li>Video editing and documentation</li>
+                                <li>Creating this website</li>
+                            </ul>
+                    </div>
+                </div>
+                <div class="row-fluid well" style="width:auto;">
+                	<div class="span3" align="center">
+                    	<img src="img/sonali.jpg" class="img-polaroid">
+                        <br><h3>Sonali Dubey</h3>
+                    </div>
+                    <div class="span9">
+                    	Sonali is alumni of <a href="http://www.daiict.ac.in" target="_new">DAIICT</a> who completed his B-tech in Information and Communication Technology.<br>
+                        Her contribution to this project is in:
+                        	<ul>
+                            	<li>Development in C# and Javascript</li>
+                                <li>Usability testing</li>
+                                <li>Interviewing Physiotherapists and other Specialtists.
+                                <li>Video editing and documentation</li>
+                            </ul>
+                    </div>
+                </div>
+                <div class="row-fluid well" style="width:auto;">
+                	<div class="span3" align="center">
+                    	<img src="img/anil.jpg" class="img-polaroid">
+                        <br><h3><a href="http://intranet.daiict.ac.in/~anil_roy/" target="_new">Dr. Anil Roy</a></h3>
+                    </div>
+                    <div class="span9">
+                    	Dr. Anil Roy is faculty at <a href="http://www.daiict.ac.in" target="_new">DAIICT</a>. His current research interest involves Applications of Image Processing, Fiber Optics and Optical Communication, High speed Semiconductor Devices, Nanoscience and Nanotechnology, Quantum Optics, Technologies for Humanitarian Challenges.<br>
+                        He is acting as a Mentor for this project and his guidance and constant motivation helps us going further.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="tab-pane fade" id="media">
+	            <div class="row-fluid">
+		            <div class="span12">                 
+		                <div class="image-slider">
+			            <div id="kinectoTherapyCarousel" class="carousel slide img-polaroid" style="max-width:570px; margin:0 auto">
+				            <div class="carousel-inner">
+				                <div class="item active">
+				                    <img src="img/imggallery/slide-4.jpg" alt="">	
+				                </div>
+				                <div class="item">
+				                    <img src="img/imggallery/slide-5.jpg" alt="">
+				                </div>
+				                <div class="item">
+				                    <img src="img/imggallery/slide-6.jpg" alt="">
+				                </div>
+				                <div class="item">
+				                <iframe width="560" height="315" src="http://www.youtube.com/embed/RTQqy8lQR7Y?rel=0" frameborder="0" allowfullscreen></iframe>
+				                </div>
+				            </div>
+				            <a class="left carousel-control" href="#kinectoTherapyCarousel" data-slide="prev">&lsaquo;</a>
+				            <a class="right carousel-control" href="#kinectoTherapyCarousel" data-slide="next">&rsaquo;</a>
+				        </div>
+			            </div><!-- image slider -->
+		            </div>
+	            </div><!-- row-fluid div ends -->
+	            
+            	<p>
+                	<ul>
+	                	<li><strong>Microsoft Kinect Could Reinvent Physical Therapy</strong> <span class="label label-info">23rd July 2015</span><br/>
+                    		<a href="http://theinstitute.ieee.org/technology-focus/technology-topic/microsoft-kinect-could-reinvent-physical-therapy" target="_new"> A new virtual reality game makes rehabilitation convenient and even fun </a><br>
+                            </li><br>
+                            
+	                	<li><strong>Primesense</strong> <span class="label label-info">10th April 2013</span><br/>
+                    		<a href="http://www.openni.org/solutions/kinectotherapy/#.UbsVBvYpZoZ" target="_new"> KinectoTherapy gets Showcased on Primesense website </a><br>
+                            </li><br>
+                        
+                		<li><strong>Times Of India</strong> <span class="label label-info">18th April 2012</span><br/>
+                    		<a href="http://timesofindia.indiatimes.com/city/ahmedabad/Dhirubhai-Ambani-Institute-of-Information-and-Technology-design-opens-Microsoft-window/articleshow/12711352.cms" target="_new"> Dhirubhai Ambani Institute of Information and Technology design opens Microsoft window </a><br>
+                            
+                            <i class="icon-download-alt"></i><a href="img/InMedia/TOI_KinectoTherapy.pdf">Click here</a> to download a PDF version.</li><br>
+                         
+						<li><strong>D.N.I.S (Disability news and Information Service)</strong> <span class="label label-info">1st May 2012</span><br>
+                        	<a  href="http://dnis.org/news.php?issue_id=4&volume_id=9&news_id=1226&i=7" target="_new"> Project on dyslexia wins India leg of Microsoft's Imagine Cup</a><br>
+                            <i class="icon-download-alt"></i><a href="img/InMedia/DNIS.pdf">Click here</a> to download a PDF version.
+                            </li><br>
+							
+                        <li><strong>CNBC TV18 'Young Turks'</strong> <span class="label label-info">5th May 2012</span><br>
+                        	<a  href="http://www.moneycontrol.com/news/features/imagine-new-technologies-for-cuplife_700810.html" target="_new"> Imagine new technologies for Cup of life</a><br>
+                            <i class="icon-download-alt"></i><a href="img/InMedia/CNBC_YoungTurks.pdf" target="_new">Click here</a> to download a PDF version.<br>
+							<i class="icon-facetime-video"></i><a href="http://youtu.be/RTQqy8lQR7Y" target="_new">Click here</a> to view the media interview.
+                            </li><br>
+							
+						<li><strong>Hindustan Times</strong> <span class="label label-info">9th May 2012</span><br>
+                        	<a  href="http://dl.dropbox.com/u/8023254/Kinectotherapy/img/InMedia/HT.pdf" target="_new"> Tech Tricks to Save The World </a><br>
+                            <i class="icon-download-alt"></i><a href="img/InMedia/HT.pdf">Click here</a> to download a PDF version.
+                            </li><br>
+							
+						<li><strong>Financial Times</strong> <span class="label label-info">22nd May 2012</span><br>
+                        	<a  href="http://www.financialexpress.com/news/Techies-with-a-mission/951437/5" target="_new"> Techies with a Mission </a><br>
+                            <i class="icon-download-alt"></i><a href="img/InMedia/FT.pdf">Click here</a> to download a PDF version.
+                            </li><br>
+							
+							
+                    
+                    </ul>                
+                </p>
+            </div>
+                        
+                    </div><!-- span12 div ends -->
+                </div><!-- row div ends -->          
+           </div><!-- hero-unit div ends -->       
+        </div><!-- Content div ends -->
+
+
+        <hr>
+        <footer class="footer">
+            <div class="container-fluid">
+                <p>
+                	&copy; KinectoTherapy 2012 
+                </p>
+                <p>
+                	<a href="home.html">Home</a> | <a href="games.html">Games</a> | <a href="about.html">About</a> | <a href="contactus.html">ContactUs</a>
+                </p>
+            </div>
+         </footer>
+     </div><!-- main Container-fluid div ends -->
+
+<script type="text/javascript">
+    $(document).ready(function () {        
+        
+        //HashTag functionality
+        if (window.location.hash) {
+	        $('#tab a[href='+ window.location.hash +']').tab('show');
+	        window.scrollTo(0,0);
+	    }
+	    
+	    $('a[data-toggle="tab"]').on('shown', function (e) {
+	    
+	    	window.location.hash = e.target.attributes['href'].nodeValue;
+	    	window.scrollTo(0,0);
+        })
+    
+    });
+</script>     
+     
+    </body>
+</html>

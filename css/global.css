@@ -1,0 +1,250 @@
+/* Override some defaults */
+            html, body {
+                background-color: #eee;
+				background-image:url(../img/patt/4.png);
+            }
+            
+            .container-fluid > footer p {
+                text-align: center; /* center align it with the container-fluid */
+            }
+            
+            body{
+	            font-family: 'Open Sans', sans-serif,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	            color: #454545;
+            }
+            
+
+            /* The white background content wrapper */
+            .content {
+                background-color: #fff;
+                padding: 20px;
+                margin: 0 -20px; /* negative indent the amount of the padding to maintain the grid system */
+                -webkit-border-radius: 0 0 6px 6px;
+                -moz-border-radius: 0 0 6px 6px;
+                border-radius: 0 0 6px 6px;
+                -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.15);
+                -moz-box-shadow: 0 1px 2px rgba(0,0,0,.15);
+                box-shadow: 0 1px 2px rgba(0,0,0,.15);
+            }
+
+            /* Page header tweaks */
+            .page-header {
+                background-color: #f5f5f5;
+                padding: 20px 20px 10px;
+                margin: -20px -20px 20px;
+            }
+            img, object {
+	            max-width: 100%;
+	        }
+
+
+/** Some overwriting of default styles **/
+
+a:focus{
+	outline: none;
+}
+
+@font-face {  
+	  font-family: "Nsegoeui";  
+	  src: url('Fonts/segoeui.eot'); /* IE */  
+	  src: url('Fonts/segoeui.ttf') format("truetype"); /* non-IE */  
+	}
+
+@font-face {  
+	  font-family: "Lsegoeui";  
+	  src: url('Fonts/segoeuil.eot'); /* IE */  
+	  src: url('Fonts/segoeuil.ttf') format("truetype"); /* non-IE */  
+	} 
+
+@font-face {  
+	  font-family: "SegoeL";  
+	  src: url('Fonts/SegoeL.eot'); /* IE */  
+	  src: url('Fonts/SegoeL.ttf') format("truetype"); /* non-IE */  
+	}
+
+@font-face {  
+	  font-family: "SegoeR";  
+	  src: url('Fonts/SegoeR.eot'); /* IE */  
+	  src: url('Fonts/SegoeR.ttf') format("truetype"); /* non-IE */  
+	} 
+
+
+/*======================================Home Page =======================================*/
+
+hr {
+		    margin:0px 80px !important;
+		    border: 0;
+			border-top: 1px solid #BDBDBD;
+			border-bottom: 1px solid #ffffff;
+			 
+		}
+		
+.info-tags{
+	padding: 0 20px
+}
+.info-container{
+	box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+	min-height: 100px;
+	height: auto;
+	border-radius: 2px;
+	background: none repeat scroll 0 0 #FEFEFE;
+	padding: 10px;
+	margin-top: 15px;
+}
+
+.info-heading{
+	text-align: center;
+	font-size: 18px;
+	font-weight: bolder;
+}
+
+.info-icon{
+	margin-top: 10px;
+}
+
+.intro-video{
+	border:5px solid black;
+	max-width: 560px;
+	width: 100%
+}
+
+.image-slider{
+	padding:30px 0px 0px 0px;
+}
+
+.carousel-control{
+	top: 50%
+}
+
+.show-grid{
+	max-width: 1160px;
+	margin:0 auto;
+}
+
+.features-tabs{
+	margin-top: 50px;
+}
+
+.features-content{
+	margin: 0px -20px 0px -20px;
+	/* background-color: rgba(194, 194, 194, 0.75); */
+	padding: 10px 0px 20px 0px;
+	clear: both;
+}
+
+.features-heading{
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 20px;
+	text-shadow: 1px 1px 0px #F2F2F2, 2px 3px 0px #B1B1B2;
+	/* background-color: rgba(194, 194, 194, 0.75); */
+}
+
+.info-frames{
+	max-width: 1070px;
+	margin: 0 auto 50px;	
+}
+
+.info-frame{
+	background: url("../img/frame_small.png") no-repeat scroll 0 0 transparent;
+    display: inline-table;
+    height: 267px !important;
+    margin: 0 10px;
+    width: 190px !important;
+}
+
+.info-frame-medal{
+	background: url("../img/frame_small_medal.png") no-repeat scroll 0 0 transparent !important;
+}
+
+.info-frame a{
+	text-align: center;
+}
+.info-frame a:hover{
+	text-decoration: none;
+}
+
+.info-frame-heading {
+    font-size: 18px;
+    font-weight: bolder;
+    padding: 60px 0 0;
+    text-align: center;
+}
+
+
+.info-frame-icon{
+	padding: 10px 20px;
+}
+
+.separator{
+	background: url("../img/separator.png") bottom center no-repeat;	
+	padding-bottom: 50px;
+}
+
+
+
+/*========================Animation================================*/
+.animated {
+	-webkit-animation-fill-mode: both;
+	-moz-animation-fill-mode: both;
+	-ms-animation-fill-mode: both;
+	-o-animation-fill-mode: both;
+	animation-fill-mode: both;
+	-webkit-animation-duration: 1s;
+	-moz-animation-duration: 1s;
+	-ms-animation-duration: 1s;
+	-o-animation-duration: 1s;
+	animation-duration: 1s;
+}
+
+.animated.hinge {
+	-webkit-animation-duration: 2s;
+	-moz-animation-duration: 2s;
+	-ms-animation-duration: 2s;
+	-o-animation-duration: 2s;
+	animation-duration: 2s;
+}
+
+@-webkit-keyframes swing {
+	20%, 40%, 60%, 80%, 100% { -webkit-transform-origin: top center; }
+	20% { -webkit-transform: rotate(2deg); }	
+	40% { -webkit-transform: rotate(-1deg); }
+	60% { -webkit-transform: rotate(1deg); }	
+	80% { -webkit-transform: rotate(-1deg); }	
+	100% { -webkit-transform: rotate(0deg); }
+}
+
+@-moz-keyframes swing {
+	20% { -moz-transform: rotate(2deg); }	
+	40% { -moz-transform: rotate(-1deg); }
+	60% { -moz-transform: rotate(1deg); }	
+	80% { -moz-transform: rotate(-1deg); }	
+	100% { -moz-transform: rotate(0deg); }
+}
+
+@-o-keyframes swing {
+	20% { -o-transform: rotate(2deg); }	
+	40% { -o-transform: rotate(-1deg); }
+	60% { -o-transform: rotate(1deg); }	
+	80% { -o-transform: rotate(-1deg); }	
+	100% { -o-transform: rotate(0deg); }
+}
+
+@keyframes swing {
+	20% { transform: rotate(2deg); }	
+	40% { transform: rotate(-1deg); }
+	60% { transform: rotate(1deg); }	
+	80% { transform: rotate(-1deg); }	
+	100% { transform: rotate(0deg); }
+}
+
+.swing {
+	-webkit-transform-origin: top center;
+	-moz-transform-origin: top center;
+	-o-transform-origin: top center;
+	transform-origin: top center;
+	-webkit-animation-name: swing;
+	-moz-animation-name: swing;
+	-o-animation-name: swing;
+	animation-name: swing;
+}
